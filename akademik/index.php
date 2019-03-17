@@ -92,12 +92,14 @@
             <th>No</th>
             <th>Nim</th>
             <th>Nama</th>
+            <th>Prodi</th>
         </tr>
         <?php while($d = mysqli_fetch_array($data)){?>
         <tr>
             <td><?=$no++?></td>
             <td><?=$d['nim']?></td>
             <td><?=$d['nama']?></td>
+            <td><?=$d['prodi']?></td>
         </tr>
         <?php } ?>
     </table>
