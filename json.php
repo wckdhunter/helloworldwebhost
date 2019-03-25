@@ -1,5 +1,5 @@
 <?php
-    include'konfigurasi.php';
+    include'koneksi.php';
 
     $query = mysqli_query($kon, 'select * from customer');
 ?>
@@ -55,7 +55,7 @@
 
     
 <?php
-    include'konfigurasi.php';
+    include'koneksi.php';
 
     $query = mysqli_query($kon, 'select * from penjual');
 ?>
@@ -93,7 +93,7 @@
 
     
 <?php
-    include'konfigurasi.php';
+    include'koneksi.php';
 
     $query = mysqli_query($kon, 'select * from makanan');
 ?>
@@ -130,7 +130,7 @@
 
     
 <?php
-    include'konfigurasi.php';
+    include'koneksi.php';
 
     $query = mysqli_query($kon, 'select * from minuman');
 ?>
@@ -167,7 +167,7 @@
 
 
 <?php
-    include'konfigurasi.php';
+    include'koneksi.php';
 
     $query = mysqli_query($kon, 'select * from snack');
 ?>
